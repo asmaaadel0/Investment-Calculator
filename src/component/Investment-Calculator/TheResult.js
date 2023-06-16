@@ -13,13 +13,24 @@ const TheResult = (props) => {
           </tr>{" "}
         </thead>{" "}
         <tbody>
-          <tr>
-            <td> {props.yearlyData.year} </td>{" "}
-            <td> {props.yearlyData.savingsEndOfYear} </td>{" "}
-            <td> {props.yearlyData.yearlyInterest} </td>{" "}
-            <td> {props.yearlyData.yearlyContribution} </td>{" "}
-            <td> TOTAL INVESTED CAPITAL </td>{" "}
-          </tr>{" "}
+          {" "}
+          {props.data.map((yearData) => (
+            <tr key={yearData.year}>
+              <td> {yearData.year} </td> <td> {yearData.savingsEndOfYear} </td>{" "}
+              <td> {yearData.yearlyInterest} </td>{" "}
+              <td>
+                {" "}
+                {yearData.savingsEndOfYear -
+                  props.initialInvestment -
+                  yearData.yearlyContribution * yearData.year}{" "}
+              </td>{" "}
+              <td>
+                {" "}
+                {props.initialInvestment +
+                  yearData.yearlyContribution * yearData.year}{" "}
+              </td>{" "}
+            </tr>
+          ))}{" "}
         </tbody>{" "}
       </table>{" "}
     </div>

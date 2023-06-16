@@ -11,8 +11,8 @@ const initialUserInput = {
 const Calculator = (props) => {
   const [userInput, setUserInput] = useState(initialUserInput);
 
-  const submitHandler = (props) => {
-    props.preventDefault();
+  const submitHandler = (event) => {
+    event.preventDefault();
     props.onCalculate(userInput);
   };
 
