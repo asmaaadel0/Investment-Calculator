@@ -13,7 +13,7 @@
 
 ## website description <a name = "website-description"></a>
 
-- Investment Calculator is a powerful tool that empowers you to visualize the growth of your savings. By entering your current savings, yearly savings amount, expected interest rate, and investment duration, calculator generates detailed projections for each year. Discover the potential growth of your savings, track the interest earned over time, and make well-informed investment decisions. Start planning for your financial future today with our intuitive and user-friendly Investment Calculator.
+Investment Calculator is a powerful tool that empowers you to visualize the growth of your savings. By entering your current savings, yearly savings amount, expected interest rate, and investment duration, calculator generates detailed projections for each year. Discover the potential growth of your savings, track the interest earned over time, and make well-informed investment decisions. Start planning for your financial future today with our intuitive and user-friendly Investment Calculator.
 
 ## How to Use <a name = "How-to-Use"></a>
 
