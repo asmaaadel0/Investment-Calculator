@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap");
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background-color: #242a28; */
-  background: radial-gradient(#303b37, #1a1f1d);
+  background: radial-gradient(#303b37, #39433f);
   color: #e1eeeb;
 }
 
@@ -18,7 +17,6 @@ body {
   text-align: center;
   margin: 3rem auto;
 }
-
 
 .header img {
   width: 5rem;
@@ -48,7 +46,7 @@ body {
 .form label {
   display: block;
   margin-bottom: 0.25rem;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 0.5rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -76,12 +74,12 @@ body {
   border-radius: 0.25rem;
   background: linear-gradient(180deg, #1f584b, #17493d);
   color: #c2e9e0;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   cursor: pointer;
 }
 
 .buttonAlt {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   border: none;
   background: transparent;
   color: #c2e9e0;
@@ -112,7 +110,7 @@ button:hover {
 }
 
 .result tbody {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 0.85rem;
   color: #c2e9e0;
 }
