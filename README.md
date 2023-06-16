@@ -17,7 +17,7 @@ Investment Calculator is a powerful tool that empowers you to visualize the grow
 
 ## How to Use <a name = "How-to-Use"></a>
 
-- Clone the repository: `git clone https://github.com/your-username/expense-tracker.git`
+- Clone the repository: `git clone https://github.com/asmaaadel0/Investment-Calculator.git`
 - Install dependencies: `npm install`
 - Start the development server: `npm start`
 - Open your browser and visit: `http://localhost:3000`
