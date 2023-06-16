@@ -1,8 +1,8 @@
 import React from "react";
 
 import TheHeader from "./component/layout/TheHeader";
-import TheResult from "./component/TheResult";
-import Calculator from "./component/Calculator";
+import TheResult from "./component/Investment-Calculator/TheResult";
+import Calculator from "./component/Investment-Calculator/Calculator";
 
 function App() {
   const calculateHandler = (userInput) => {
