@@ -2,6 +2,12 @@ import React from "react";
 
 import "./TheResult.css";
 
+const formatter = new Intl.NumberFormat("en-US", {
+  style: "currency",
+  currency: "USD",
+  minimumFractionDigits: 2,
+  maximumFractionDigits: 2,
+});
 const TheResult = (props) => {
   return (
     <div>
@@ -16,18 +22,23 @@ const TheResult = (props) => {
           {" "}
           {props.data.map((yearData) => (
             <tr key={yearData.year}>
-              <td> {yearData.year} </td> <td> {yearData.savingsEndOfYear} </td>{" "}
-              <td> {yearData.yearlyInterest} </td>{" "}
+              <td> {yearData.year} </td>{" "}
+              <td> {formatter.format(yearData.savingsEndOfYear)} </td>{" "}
+              <td> {formatter.format(yearData.yearlyInterest)} </td>{" "}
               <td>
                 {" "}
-                {yearData.savingsEndOfYear -
-                  props.initialInvestment -
-                  yearData.yearlyContribution * yearData.year}{" "}
+                {formatter.format(
+                  yearData.savingsEndOfYear -
+                    props.initialInvestment -
+                    yearData.yearlyContribution * yearData.year
+                )}{" "}
               </td>{" "}
               <td>
                 {" "}
-                {props.initialInvestment +
-                  yearData.yearlyContribution * yearData.year}{" "}
+                {formatter.format(
+                  props.initialInvestment +
+                    yearData.yearlyContribution * yearData.year
+                )}{" "}
               </td>{" "}
             </tr>
           ))}{" "}
