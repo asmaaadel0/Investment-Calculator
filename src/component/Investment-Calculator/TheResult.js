@@ -2,7 +2,7 @@ import React from "react";
 
 import "./TheResult.css";
 
-const TheResult = () => {
+const TheResult = (props) => {
   return (
     <div>
       <table className="result">
@@ -14,8 +14,10 @@ const TheResult = () => {
         </thead>{" "}
         <tbody>
           <tr>
-            <td> YEAR NUMBER </td> <td> TOTAL SAVINGS END OF YEAR </td>{" "}
-            <td> INTEREST GAINED IN YEAR </td> <td> TOTAL INTEREST GAINED </td>{" "}
+            <td> {props.yearlyData.year} </td>{" "}
+            <td> {props.yearlyData.savingsEndOfYear} </td>{" "}
+            <td> {props.yearlyData.yearlyInterest} </td>{" "}
+            <td> {props.yearlyData.yearlyContribution} </td>{" "}
             <td> TOTAL INVESTED CAPITAL </td>{" "}
           </tr>{" "}
         </tbody>{" "}
