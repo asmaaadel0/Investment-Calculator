@@ -28,7 +28,9 @@ Investment Calculator is a powerful tool that empowers you to visualize the grow
 ## vedio <a name = "vedio"></a>
 
 
-https://github.com/asmaaadel0/Investment-Calculator/assets/88618793/aa6b536c-1b22-4a6a-9f55-734e9802743b
+
+https://github.com/asmaaadel0/Investment-Calculator/assets/88618793/01b6bbdb-0f38-4054-8b66-803c00834c94
+
 
 
 ## Contributors <a name = "Contributors"></a>
